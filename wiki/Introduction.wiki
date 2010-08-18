@@ -27,4 +27,4 @@ Since RDF does not have the same structure as data in a relational database, som
 
 This library uses HTTP for communication, and XML as the default data serialization. Much of the protocol code is boilerplate to avoid communicating with HTTP, and parsers for converting results into ResultSet objects. The code for this is all to be found in org.mulgara.jsparqlc. All the classes you need to access for Scon are to be found in this package.
 
-Because data being returned represents RDF, the library also makes heavy use of the [http://code.google.com/p/mrg/ MRG] API. This is a complete [GraphAPI Graph API] for programmatic handling of RDF data, and is developed in conjunction with this project.
+Because data being returned represents RDF, the library also makes heavy use of the [http://code.google.com/p/mrg/ MRG] API. This is a complete [http://code.google.com/p/mrg/wiki/GraphReading Graph API] for programmatic handling of RDF data, and is developed in conjunction with this project.
